@@ -7,7 +7,7 @@
 ## Usage
 ```java
 SesameClient client = new SesameClient(MyKey.API_KEY);
-Key myKey = new Key(MyKey.UUID, MyKey.SECRET_KEY);
+Key myKey = new Key(UUID, SECRET_KEY);
 
 client.unlock(myKey, "sesame4j");
 
